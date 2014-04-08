@@ -5,15 +5,15 @@ require 'rake/clean'
 begin
 	require 'jeweler'
 	Jeweler::Tasks.new {|gemspec|
-		gemspec.name = "fluent-plugin-growl"
-		gemspec.summary = "Growl output plugin for Fluent Event Collector"
-		gemspec.author = "TAKEI Yuya"
-		gemspec.email = "takei.yuya@gmail.com"
-		gemspec.homepage = "https://github.com/takei-yuya/fluent-plugin-growl"
+		gemspec.name = "fluent-plugin-gntp"
+		gemspec.summary = "GNTP output plugin for Fluent Event Collector"
+		gemspec.authors = ["Akihiro Harai", "TAKEI Yuya"]
+		gemspec.email = "jharai0815@gmail.com"
+		gemspec.homepage = "https://github.com/harai/fluent-plugin-gntp"
 		gemspec.has_rdoc = false
 		gemspec.require_paths = ["lib"]
 		gemspec.add_dependency "fluentd", "~> 0.10.0"
-		gemspec.add_dependency "ruby-growl", "~> 4.0"
+		gemspec.add_dependency "ruby_gntp", "~> 0.3.4"
 		gemspec.test_files = Dir["test/**/*.rb"]
 		gemspec.files = Dir["bin/**/*", "lib/**/*", "test/**/*.rb"] + %w[VERSION AUTHORS Rakefile]
 		gemspec.executables = []
