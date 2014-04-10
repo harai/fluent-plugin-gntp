@@ -23,3 +23,6 @@ and some command line example
 	$ echo '{"title": "Title", "message": "Hello World!!"}' | fluent-cat gntp.test
 	$ echo '{"title": "Sticky", "message": "It's sticky message!!", notify:"StickyNotify"}' | fluent-cat gntp.test
 	$ echo '{}' | fluent-cat gntp.test
+
+
+This software was originally created by TAKEI Yuya as "fluent-plugin-growl" ( https://github.com/takei-yuya/fluent-plugin-growl )

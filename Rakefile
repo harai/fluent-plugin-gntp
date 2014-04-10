@@ -15,7 +15,7 @@ begin
 		gemspec.add_dependency "fluentd", "~> 0.10.0"
 		gemspec.add_dependency "ruby_gntp", "~> 0.3.4"
 		gemspec.test_files = Dir["test/**/*.rb"]
-		gemspec.files = Dir["bin/**/*", "lib/**/*", "test/**/*.rb"] + %w[VERSION AUTHORS Rakefile]
+		gemspec.files = Dir["bin/**/*", "lib/**/*", "test/**/*.rb"] + %w[VERSION AUTHORS Rakefile LICENSE]
 		gemspec.executables = []
 	}
 	Jeweler::GemcutterTasks.new
